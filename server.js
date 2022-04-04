@@ -14,5 +14,5 @@ app.post('/user/:id',userController.updatedata);
 
 
 app.listen(7001,()=>{
-    console.log("Server started and running at port number 7001");
+    console.log("Hello, Server started and running at port number 7001");
 })
